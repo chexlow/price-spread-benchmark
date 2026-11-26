@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset or benchmark, please cite Chexlow using the metadata below."
+title: "Chexlow Cross-Store Fashion & Beauty Price Spread Benchmark"
+type: dataset
+authors:
+  - name: "Chexlow"
+    website: "https://chexlow.com"
+    email: "biz@chexlow.com"
+date-released: "2026-11-26"
+url: "https://chexlow.com/research/price-spread"
+repository-code: "https://github.com/chexlow/price-spread-benchmark"
+license: CC-BY-4.0
+keywords:
+  - ecommerce
+  - price-comparison
+  - fashion
+  - beauty
+  - retail-pricing
+  - benchmark
+  - open-data

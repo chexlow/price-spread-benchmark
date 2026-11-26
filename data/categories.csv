@@ -1,0 +1,11 @@
+slug,name,product_count,average_spread_pct,median_spread_pct,average_savings_usd,median_savings_usd
+womens-clothing,Women's Clothing,314,25.1,22.3,201.7,108.37
+handbags,Handbags,207,25.7,24.8,283.44,179.77
+mens-clothing,Men's Clothing,203,26.4,25.2,260.38,107.85
+fashion,Fashion,185,24.9,23.4,143.46,87.91
+womens-shoes,Women's Shoes,179,25.5,22.8,139.4,100.4
+mens-shoes,Men's Shoes,109,27.1,26.9,110.36,77.78
+fragrances,Fragrances,57,32.8,33.3,78.98,53.64
+skincare,Skincare,50,11.7,3.4,13.34,2.54
+moisturizers,Moisturizers,49,8,3.4,9.87,2.89
+hair-styling,Hair Styling,28,20.2,13.5,9.04,6.5

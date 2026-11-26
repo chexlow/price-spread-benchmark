@@ -1,0 +1,330 @@
+{
+  "summary": {
+    "observedAt": "2026-11-26T02:54:21.100Z",
+    "siteDomain": "chexlow",
+    "minStoreCount": 3,
+    "maxSpreadRatioGuard": 4,
+    "analyzedProductCount": 1749,
+    "excludedOutlierCount": 11,
+    "productsWithSpreadCount": 1684,
+    "productsWithSpreadSharePct": 96.3,
+    "distinctMerchantCount": 30,
+    "distinctBrandCount": 273,
+    "averageSpreadPct": 23.6,
+    "medianSpreadPct": 22.3,
+    "averageSavingsUsd": 147.2,
+    "medianSavingsUsd": 72.37
+  },
+  "categories": [
+    {
+      "slug": "womens-clothing",
+      "name": "Women's Clothing",
+      "productCount": 314,
+      "averageSpreadPct": 25.1,
+      "medianSpreadPct": 22.3,
+      "averageSavingsUsd": 201.7,
+      "medianSavingsUsd": 108.37
+    },
+    {
+      "slug": "handbags",
+      "name": "Handbags",
+      "productCount": 207,
+      "averageSpreadPct": 25.7,
+      "medianSpreadPct": 24.8,
+      "averageSavingsUsd": 283.44,
+      "medianSavingsUsd": 179.77
+    },
+    {
+      "slug": "mens-clothing",
+      "name": "Men's Clothing",
+      "productCount": 203,
+      "averageSpreadPct": 26.4,
+      "medianSpreadPct": 25.2,
+      "averageSavingsUsd": 260.38,
+      "medianSavingsUsd": 107.85
+    },
+    {
+      "slug": "fashion",
+      "name": "Fashion",
+      "productCount": 185,
+      "averageSpreadPct": 24.9,
+      "medianSpreadPct": 23.4,
+      "averageSavingsUsd": 143.46,
+      "medianSavingsUsd": 87.91
+    },
+    {
+      "slug": "womens-shoes",
+      "name": "Women's Shoes",
+      "productCount": 179,
+      "averageSpreadPct": 25.5,
+      "medianSpreadPct": 22.8,
+      "averageSavingsUsd": 139.4,
+      "medianSavingsUsd": 100.4
+    },
+    {
+      "slug": "mens-shoes",
+      "name": "Men's Shoes",
+      "productCount": 109,
+      "averageSpreadPct": 27.1,
+      "medianSpreadPct": 26.9,
+      "averageSavingsUsd": 110.36,
+      "medianSavingsUsd": 77.78
+    },
+    {
+      "slug": "fragrances",
+      "name": "Fragrances",
+      "productCount": 57,
+      "averageSpreadPct": 32.8,
+      "medianSpreadPct": 33.3,
+      "averageSavingsUsd": 78.98,
+      "medianSavingsUsd": 53.64
+    },
+    {
+      "slug": "skincare",
+      "name": "Skincare",
+      "productCount": 50,
+      "averageSpreadPct": 11.7,
+      "medianSpreadPct": 3.4,
+      "averageSavingsUsd": 13.34,
+      "medianSavingsUsd": 2.54
+    },
+    {
+      "slug": "moisturizers",
+      "name": "Moisturizers",
+      "productCount": 49,
+      "averageSpreadPct": 8,
+      "medianSpreadPct": 3.4,
+      "averageSavingsUsd": 9.87,
+      "medianSavingsUsd": 2.89
+    },
+    {
+      "slug": "hair-styling",
+      "name": "Hair Styling",
+      "productCount": 28,
+      "averageSpreadPct": 20.2,
+      "medianSpreadPct": 13.5,
+      "averageSavingsUsd": 9.04,
+      "medianSavingsUsd": 6.5
+    }
+  ],
+  "brands": [
+    {
+      "slug": "pinko",
+      "name": "Pinko",
+      "productCount": 102,
+      "averageSpreadPct": 24,
+      "medianSpreadPct": 22.9,
+      "averageSavingsUsd": 102.67
+    },
+    {
+      "slug": "adidas",
+      "name": "Adidas",
+      "productCount": 65,
+      "averageSpreadPct": 34.7,
+      "medianSpreadPct": 30,
+      "averageSavingsUsd": 25.72
+    },
+    {
+      "slug": "nike",
+      "name": "Nike",
+      "productCount": 48,
+      "averageSpreadPct": 18.1,
+      "medianSpreadPct": 17.5,
+      "averageSavingsUsd": 22.31
+    },
+    {
+      "slug": "dolce-gabbana",
+      "name": "Dolce & Gabbana",
+      "productCount": 46,
+      "averageSpreadPct": 29.3,
+      "medianSpreadPct": 29.8,
+      "averageSavingsUsd": 392.18
+    },
+    {
+      "slug": "brunello-cucinelli",
+      "name": "Brunello Cucinelli",
+      "productCount": 42,
+      "averageSpreadPct": 25.5,
+      "medianSpreadPct": 31.5,
+      "averageSavingsUsd": 862.34
+    },
+    {
+      "slug": "golden-goose",
+      "name": "Golden Goose",
+      "productCount": 40,
+      "averageSpreadPct": 24.8,
+      "medianSpreadPct": 21.2,
+      "averageSavingsUsd": 177.26
+    },
+    {
+      "slug": "diesel",
+      "name": "Diesel",
+      "productCount": 32,
+      "averageSpreadPct": 39.7,
+      "medianSpreadPct": 36.8,
+      "averageSavingsUsd": 231.44
+    },
+    {
+      "slug": "the-north-face",
+      "name": "The North Face",
+      "productCount": 30,
+      "averageSpreadPct": 14.8,
+      "medianSpreadPct": 12,
+      "averageSavingsUsd": 22.9
+    },
+    {
+      "slug": "gucci",
+      "name": "Gucci",
+      "productCount": 27,
+      "averageSpreadPct": 27.1,
+      "medianSpreadPct": 36.8,
+      "averageSavingsUsd": 332.34
+    },
+    {
+      "slug": "new-balance",
+      "name": "New Balance",
+      "productCount": 27,
+      "averageSpreadPct": 36.7,
+      "medianSpreadPct": 33.6,
+      "averageSavingsUsd": 73.57
+    },
+    {
+      "slug": "dermalogica",
+      "name": "Dermalogica",
+      "productCount": 27,
+      "averageSpreadPct": 6.8,
+      "medianSpreadPct": 4.8,
+      "averageSavingsUsd": 4.68
+    },
+    {
+      "slug": "oribe",
+      "name": "Oribe",
+      "productCount": 27,
+      "averageSpreadPct": 11.5,
+      "medianSpreadPct": 3.4,
+      "averageSavingsUsd": 11.08
+    }
+  ],
+  "featuredExamples": [
+    {
+      "slug": "ugg-ugg-tasman-ii-mules-v5m",
+      "categorySlug": "womens-shoes",
+      "categoryName": "Women's Shoes",
+      "name": "UGG Tasman II Suede Sabot Mules with Wool Interior",
+      "brandName": "Ugg",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/07/805b4627-b873-4a59-9393-05c7da6c7b4c.webp",
+      "storeCount": 7,
+      "lowestStorePriceUsd": 104.95,
+      "highestStorePriceUsd": 208.8,
+      "savingsUsd": 103.85,
+      "spreadPct": 49.7,
+      "lowestMerchantName": "Altitude-Sports",
+      "highestMerchantName": "Drestige US"
+    },
+    {
+      "slug": "pinko-pinko-sac-love-classic-puff-classic-hx5",
+      "categorySlug": "handbags",
+      "categoryName": "Handbags",
+      "name": "Pinko Love Classic Puff Classic Bag",
+      "brandName": "Pinko",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/06/bb091489-c3bd-4e16-81cf-2d77223f40f0.webp",
+      "storeCount": 5,
+      "lowestStorePriceUsd": 243.03,
+      "highestStorePriceUsd": 547.55,
+      "savingsUsd": 304.52,
+      "spreadPct": 55.6,
+      "lowestMerchantName": "Giglio.com",
+      "highestMerchantName": "Bloomingdales Australia"
+    },
+    {
+      "slug": "ami-paris-ami-paris-ami-de-coeur-funnel-neck-wool-sweater-s1l",
+      "categorySlug": "fashion",
+      "categoryName": "Fashion",
+      "name": "Ami Paris Ami De Coeur Funnel-neck Wool Sweater",
+      "brandName": "Ami Paris",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/04/40adb43d-3de2-4b8a-8681-0975281acdaf.webp",
+      "storeCount": 5,
+      "lowestStorePriceUsd": 258.2,
+      "highestStorePriceUsd": 482.22,
+      "savingsUsd": 224.02,
+      "spreadPct": 46.5,
+      "lowestMerchantName": "Leam",
+      "highestMerchantName": "TheBS"
+    },
+    {
+      "slug": "jacquemus-jacquemus-the-gros-grain-beanie-kwg",
+      "categorySlug": "hats-caps",
+      "categoryName": "Hats & Caps",
+      "name": "Jacquemus Gros Grain Beanie",
+      "brandName": "Jacquemus",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/09/e70c7429-a32f-4e00-939f-20748cc2c246.webp",
+      "storeCount": 5,
+      "lowestStorePriceUsd": 116.81,
+      "highestStorePriceUsd": 213,
+      "savingsUsd": 96.19,
+      "spreadPct": 45.2,
+      "lowestMerchantName": "Leam",
+      "highestMerchantName": "Rboutique"
+    },
+    {
+      "slug": "autry-medalist-low-sneakers-79g",
+      "categorySlug": "mens-shoes",
+      "categoryName": "Men's Shoes",
+      "name": "Autry Autrey Medalist Low Sneakers",
+      "brandName": "Autry",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/06/c63e486a-d21e-4c20-93b7-ce167e270a8e.webp",
+      "storeCount": 5,
+      "lowestStorePriceUsd": 143.44,
+      "highestStorePriceUsd": 237.6,
+      "savingsUsd": 94.16,
+      "spreadPct": 39.6,
+      "lowestMerchantName": "Leam",
+      "highestMerchantName": "Drestige US"
+    },
+    {
+      "slug": "golden-goose-golden-goose-baskets-ballstar-yli",
+      "categorySlug": "womens-shoes",
+      "categoryName": "Women's Shoes",
+      "name": "Golden Goose Ball Star Leather and Glitter Fabric Sneakers with Used Effect",
+      "brandName": "Golden Goose",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/04/af82f886-1df4-4c98-9852-71fae437ec3d.webp",
+      "storeCount": 5,
+      "lowestStorePriceUsd": 450.82,
+      "highestStorePriceUsd": 700.93,
+      "savingsUsd": 250.11,
+      "spreadPct": 35.7,
+      "lowestMerchantName": "Leam",
+      "highestMerchantName": "Giglio.com"
+    },
+    {
+      "slug": "split-019d81bd-99000654-1776097790422",
+      "categorySlug": "fashion",
+      "categoryName": "Fashion",
+      "name": "New Balance 9060 Sneakers in Nubuck and Mesh",
+      "brandName": "New Balance",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/06/52ac1b55-975a-4ff1-8d7e-759d0d04b97d.webp",
+      "storeCount": 5,
+      "lowestStorePriceUsd": 155.25,
+      "highestStorePriceUsd": 238,
+      "savingsUsd": 82.75,
+      "spreadPct": 34.8,
+      "lowestMerchantName": "Bloomingdales Australia",
+      "highestMerchantName": "Rboutique"
+    },
+    {
+      "slug": "stella-mccartney-stella-mccartney-silver-falabella-tiny-bag-polyester-shoulder-women-3kl",
+      "categorySlug": "handbags",
+      "categoryName": "Handbags",
+      "name": "Stella McCartney Embellished Shaggy Deer Micro Falabella Handbag Black",
+      "brandName": "Stella Mccartney",
+      "imageUrl": "https://cdn.chexlow.com/images/optimized/2026/06/63ca5329-73f0-46ee-8fe9-cf9b18c88a92.webp",
+      "storeCount": 5,
+      "lowestStorePriceUsd": 820.82,
+      "highestStorePriceUsd": 1247,
+      "savingsUsd": 426.18,
+      "spreadPct": 34.2,
+      "lowestMerchantName": "Giglio.com",
+      "highestMerchantName": "Rboutique"
+    }
+  ]
+}
