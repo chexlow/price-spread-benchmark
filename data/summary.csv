@@ -1,2 +1,2 @@
 observed_at,site_domain,min_store_count,max_spread_ratio_guard,analyzed_product_count,excluded_outlier_count,products_with_spread_count,products_with_spread_share_pct,distinct_merchant_count,distinct_brand_count,average_spread_pct,median_spread_pct,average_savings_usd,median_savings_usd
-2026-11-26T02:54:21.100Z,chexlow,3,4,1749,11,1684,96.3,30,273,23.6,22.3,147.2,72.37
+2026-11-26T23:20:00.266Z,chexlow,3,4,1732,12,1668,96.3,29,273,23.6,22.3,146.46,71.06

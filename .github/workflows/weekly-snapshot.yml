@@ -1,0 +1,49 @@
+name: Weekly Price Spread Snapshot
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch live snapshot and regenerate CSVs & README
+        run: python3 scripts/update_snapshot.py
+      - name: Commit snapshot changes if updated
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No snapshot changes detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ README.md
+          git commit -m "chore(data): update weekly price spread snapshot ($(date -u +%Y-%m-%d))"
+          git push
+      - name: Sync Hugging Face dataset (when HF_TOKEN secret is configured)
+        if: ${{ secrets.HF_TOKEN != '' }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          pip install --quiet huggingface_hub
+          python3 -c '
+          import os
+          from huggingface_hub import HfApi
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          api.upload_folder(
+              folder_path="data",
+              path_in_repo="data",
+              repo_id="mkan/chexlow-price-spread-benchmark",
+              repo_type="dataset",
+              commit_message="chore(data): sync weekly snapshot from GitHub",
+          )
+          '

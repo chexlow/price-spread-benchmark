@@ -7,49 +7,51 @@ Open aggregated pricing benchmark measuring how much identical fashion, beauty, 
 - **Live read-only API endpoint** (`GET`, no auth): `https://api.chexlow.com/api/v1/catalog/discovery/price-spread-report?siteDomain=chexlow&minStoreCount=3`
 - **Developer docs, OpenAPI & Remote MCP**: https://chexlow.com/developers (`https://chexlow.com/openapi.json`, `https://chexlow.com/mcp`)
 
-## Snapshot Summary (`2026-11-26T02:54:21.100Z`)
+<!-- SNAPSHOT_START -->
+## Snapshot Summary (`2026-11-26T23:20:00.266Z`)
 
 | Metric | Value |
 |---|---|
-| Products analyzed (`store_count >= 3`) | **1,749** |
-| Outliers excluded (`highest / lowest > 4x`) | **11** |
-| Products with cross-store spread | **1,684 (96.3%)** |
-| Distinct verified merchants | **30** |
+| Products analyzed (`store_count >= 3`) | **1,732** |
+| Outliers excluded (`highest / lowest > 4x`) | **12** |
+| Products with cross-store spread | **1,668 (96.3%)** |
+| Distinct verified merchants | **29** |
 | Distinct brands | **273** |
-| Median price spread | **22.3% ($72.37 USD)** |
-| Average price spread | **23.6% ($147.20 USD)** |
+| Median price spread | **22.3% ($71.06 USD)** |
+| Average price spread | **23.6% ($146.46 USD)** |
 
 ## Category Breakdown (Top 10 by Product Count)
 
 | Category | Products | Average Spread | Median Spread | Median Savings (USD) |
 |---|---:|---:|---:|---:|
-| Women's Clothing | 314 | 25.1% | 22.3% | $108.37 |
-| Handbags | 207 | 25.7% | 24.8% | $179.77 |
-| Men's Clothing | 203 | 26.4% | 25.2% | $107.85 |
-| Fashion | 185 | 24.9% | 23.4% | $87.91 |
-| Women's Shoes | 179 | 25.5% | 22.8% | $100.40 |
-| Men's Shoes | 109 | 27.1% | 26.9% | $77.78 |
-| Fragrances | 57 | 32.8% | **33.3%** | $53.64 |
+| Women's Clothing | 315 | 24.9% | **22.3%** | $105.34 |
+| Handbags | 208 | 25.6% | **24.5%** | $181.96 |
+| Men's Clothing | 193 | 27.0% | **28.3%** | $112.58 |
+| Fashion | 180 | 24.8% | **24.1%** | $87.27 |
+| Women's Shoes | 177 | 25.1% | **22.9%** | $103.60 |
+| Men's Shoes | 103 | 27.3% | **26.9%** | $78.77 |
+| Fragrances | 59 | 32.8% | **33.3%** | $53.35 |
 | Skincare | 50 | 11.7% | **3.4%** | $2.54 |
-| Moisturizers | 49 | 8.0% | **3.4%** | $2.89 |
-| Hair Styling | 28 | 20.2% | 13.5% | $6.50 |
+| Moisturizers | 49 | 7.9% | **3.4%** | $2.89 |
+| Hair Styling | 28 | 20.2% | **13.5%** | $6.50 |
 
 ## Brand Highlights
 
 | Brand | Products | Average Spread | Median Spread | Average Savings (USD) |
 |---|---:|---:|---:|---:|
-| Pinko | 102 | 24.0% | 22.9% | $102.67 |
-| Adidas | 65 | 34.7% | 30.0% | $25.72 |
-| Nike | 48 | 18.1% | 17.5% | $22.31 |
-| Dolce & Gabbana | 46 | 29.3% | 29.8% | $392.18 |
-| Brunello Cucinelli | 42 | 25.5% | 31.5% | $862.34 |
-| Golden Goose | 40 | 24.8% | 21.2% | $177.26 |
-| Diesel | 32 | 39.7% | 36.8% | $231.44 |
-| The North Face | 30 | 14.8% | 12.0% | $22.90 |
-| Gucci | 27 | 27.1% | 36.8% | $332.34 |
-| New Balance | 27 | 36.7% | 33.6% | $73.57 |
-| Dermalogica | 27 | 6.8% | 4.8% | $4.68 |
+| Pinko | 105 | 23.4% | 22.3% | $98.59 |
+| Adidas | 64 | 35.2% | 30.0% | $26.27 |
+| Nike | 51 | 19.3% | 18.2% | $23.26 |
+| Dolce & Gabbana | 45 | 29.2% | 29.4% | $396.53 |
+| Golden Goose | 41 | 24.9% | 21.2% | $178.17 |
+| Brunello Cucinelli | 39 | 25.6% | 31.3% | $869.39 |
+| Diesel | 29 | 40.0% | 37.1% | $233.93 |
+| The North Face | 28 | 14.6% | 10.7% | $23.21 |
+| Gucci | 27 | 27.0% | 36.8% | $330.90 |
+| Dermalogica | 27 | 6.4% | 4.8% | $4.35 |
 | Oribe | 27 | 11.5% | 3.4% | $11.08 |
+| New Balance | 26 | 34.2% | 32.9% | $69.19 |
+<!-- SNAPSHOT_END -->
 
 ## Methodology
 
@@ -66,6 +68,7 @@ Open aggregated pricing benchmark measuring how much identical fashion, beauty, 
 - `data/brands.csv` — Brand breakdown (`12` rows).
 - `data/featured_examples.csv` — Verified multi-store product examples (`8` rows) with live comparison URLs.
 - `scripts/fetch_live_report.py` & `scripts/fetch_live_report.sh` — Reproducible scripts to pull the latest live snapshot from the public API.
+- `scripts/update_snapshot.py` & `.github/workflows/weekly-snapshot.yml` — Automated weekly snapshot refresher updating CSVs, dated JSON, and summary tables every Monday at `06:00 UTC`.
 
 ## Reproduce Live Snapshot
 
