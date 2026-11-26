@@ -30,10 +30,13 @@ jobs:
           git commit -m "chore(data): update weekly price spread snapshot ($(date -u +%Y-%m-%d))"
           git push
       - name: Sync Hugging Face dataset (when HF_TOKEN secret is configured)
-        if: ${{ secrets.HF_TOKEN != '' }}
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          if [ -z "${HF_TOKEN:-}" ]; then
+            echo "HF_TOKEN secret not configured; skipping Hugging Face sync."
+            exit 0
+          fi
           pip install --quiet huggingface_hub
           python3 -c '
           import os
